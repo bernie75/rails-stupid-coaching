@@ -1,14 +1,3 @@
-class CoachingController < ApplicationController
-
-  def answer
-    @question = params[:query]
-  end
-
-  def ask
-
-  end
-end
-
 def coach_answer(your_message)
   if your_message.downcase == "i am going to work right now!"
     ''
@@ -31,5 +20,3 @@ def coach_answer_enhanced(your_message)
     ""
   end
 end
-
-
